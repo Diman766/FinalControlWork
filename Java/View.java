@@ -11,7 +11,6 @@ public class View {
                 "4 - обучить животное новым командам\n" +
                 "5 - показать количество животных \n" +
                 "6 - выход \n");
-
         String text = scan.nextLine();
         return text;
 
@@ -29,27 +28,10 @@ public class View {
         return text;
     }
 
-    public static String new_name(Scanner scan) {
-        System.out.println("Введите имя ");
+    public static String new_question(Scanner scan, String question) {
+        System.out.println(question);
         String text = scan.nextLine();
         return text;
     }
 
-    public static String new_date(Scanner scan) {
-        System.out.println("Введите дату рождения ");
-        String text = scan.nextLine();
-        return text;
-    }
-
-    public static String new_order(Scanner scan) {
-        System.out.println("Введите команды ");
-        String text = scan.nextLine();
-        return text;
-    }
-
-    public static String id(Scanner scan) {
-        System.out.println("Введите Id ");
-        String text = scan.nextLine();
-        return text;
-    }
 }

@@ -1,5 +1,5 @@
 
-public class Counter implements AutoCloseable{
+public class Counter implements AutoCloseable {
     static int sum;
     {
         sum = 0;
@@ -8,7 +8,8 @@ public class Counter implements AutoCloseable{
     public void add() {
         sum++;
     }
-    public int getSum(){
+
+    public int getSum() {
         return sum;
     }
 
